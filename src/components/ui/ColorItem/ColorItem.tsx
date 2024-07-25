@@ -1,4 +1,3 @@
-
 import { Link } from "react-router-dom";
 import { IColor } from "../../../interfaces";
 import styles from "./styles.module.scss";
@@ -37,6 +36,6 @@ const ColorItem = ({ color, link }: Props) => {
       </div>
     </div>
   );
-
+};
 
 export default ColorItem;
