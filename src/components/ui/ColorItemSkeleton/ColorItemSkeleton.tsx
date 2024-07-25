@@ -21,5 +21,6 @@ const ColorItemSkeleton = ({ count }: Props) => {
       })}
     </>
   );
+};
 
 export default ColorItemSkeleton;
