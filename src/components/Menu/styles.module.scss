@@ -1,0 +1,21 @@
+.menu {
+  &__list {
+    display: flex;
+    & li {
+      &:not(:last-child) {
+        margin-right: 10px;
+      }
+      & a {
+        color: #000;
+        font-size: 18px;
+        transition: opacity 0.3s ease 0s;
+        &.active {
+          color: brown;
+        }
+        &:hover {
+          opacity: 0.6;
+        }
+      }
+    }
+  }
+}
